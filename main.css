@@ -1,8 +1,18 @@
-section {
+/* id セレクター */
+#product-overview {
   background: #ff1b68;
 }
 
+/* element 指定 */
 h1 {
   color: white;
   font-family: 'anton', sans-serif;
+}
+
+/* class セレクター
+*  再利用可能
+*  複数指定可能
+*/
+.section-title {
+  color: #2ddf5c;
 }
