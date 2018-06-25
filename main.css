@@ -43,3 +43,24 @@ Inline Styles > #ID selector > .class selector > Tag and element selectors
 /** selector の種類
 * div / .blog-post / #main-title / [disabled] / *
 */
+
+
+/** value の種類
+*Pre-defined Options:
+  display: block;
+  overflow: auto;
+
+* Colors:
+  background: red;
+  color: #fa923f;
+  color: #ccc;
+
+* Length, Sizes, Numbers
+  height: 100px;
+  width: 20%;
+  order: 1;
+
+* Functions
+  background: url(...)
+  transform: scale(...)
+*/
