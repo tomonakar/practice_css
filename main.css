@@ -38,7 +38,8 @@ Inline Styles > #ID selector > .class selector > Tag and element selectors
 2) Genaral Sibling Combinator:    div ~ p {}      div と同じ階層のpにスタイルが当たる
 3) Child Combinator:              div > p {}      div 直下のpのみにスタイルが当たる
 4) Decendant Combinator:          div p {}        div 配下の p全てにスタイルが当たる
+*/
 
-
-
+/** selector の種類
+* div / .blog-post / #main-title / [disabled] / *
 */
