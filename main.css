@@ -16,3 +16,8 @@ h1 {
 .section-title {
   color: #2ddf5c;
 }
+
+/*
+スタイルが競合した場合の優先順位
+Inline Styles > #ID selector > .class selector > Tag and element selectors
+*/
