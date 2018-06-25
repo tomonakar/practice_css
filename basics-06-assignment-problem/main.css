@@ -1,0 +1,27 @@
+body {
+  font-family: fantasy;
+}
+
+.second-li code {
+  color: green;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+h1 {
+  color: gray;
+  font-family: sans-seif;
+}
+
+li + li {
+  background: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
+}
