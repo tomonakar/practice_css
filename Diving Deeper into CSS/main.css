@@ -21,9 +21,20 @@ body {
   font-family: 'anton', sans-serif;
 }
 
-/* element 指定 */
+/* element 指定
 h1 {
   font-family: san-sans-serif;
+}
+*/
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-nav__item {
+  display: inline-block;
 }
 
 /* class セレクター
