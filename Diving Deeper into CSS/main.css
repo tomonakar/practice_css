@@ -7,9 +7,7 @@ body {
 #product-overview {
   background: #ff1b68;
   padding: 20px;
-  border-style: solid;
-  border-color: black;
-  border-width: 5px;
+  border: 2px solid black;
   margin: 20px;
 }
 
@@ -81,6 +79,29 @@ Collapsing Margins(マージンの相殺)について
 参考：https://coliss.com/articles/build-websites/operation/css/about-collapsing-margins.html
 
 
+#########################################
+Shorthand Properties
+#########################################
+1) border
+<Separate properties>
+border-width: 2px;
+border-style: solid;
+border-color: orange;
 
+<Shorthand properties>
+border: 2px solid orange;
 
+2) margin
+<Separate properties>
+margin-top: 5px;
+margin-right: 10px;
+margin-bottom: 5px;
+margin-left: 10px;
+
+<Shorthand property>
+margin: 5px 10px 5px 10px;  top right bottom left
+or
+margin: 5px 10px; top&bottom right&left
+or
+margin: 10px;
 */
