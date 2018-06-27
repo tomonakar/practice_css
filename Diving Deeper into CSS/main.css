@@ -86,3 +86,48 @@ body {
   background: white;
   border: none;
 }
+
+
+/* Summary of this section
+###################################################
+the box model
+###################################################
+
+   Margin
+ _____________________
+|    Border           |
+|  _ _ _ _ _ _ _ _ _  |
+| |  Padding        | |
+| |  _____________  | |
+| | |   Content   | | |
+| | |_____________| | |
+| |_ _ _ _ _ _ _ _ _| |
+| ___________________ |
+
+
+###################################################
+Styling Width & Height
+###################################################
+1) px or % (or Other units)
+2) % refers to container
+3) box-sizing can be content-box (default) or border-box
+
+
+###################################################
+The display Property
+###################################################
+1) Control behavior (block vs inline) of elements
+2) Mix behavior via inline-box
+3) Remove elements via none
+
+
+###################################################
+Pseudo Classes & Elements
+###################################################
+:hover
+:active
+:first-of-type
+::after
+::first-letter
+
+*/
