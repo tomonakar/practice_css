@@ -59,6 +59,10 @@ body {
   text-decoration: none;
 }
 
+.main-nav__item a::after {
+  content: " (Link)";
+  color: red;
+}
 .main-nav__item a:hover {
   color: white;
 }
@@ -70,9 +74,4 @@ body {
 .section-title {
   color: #2ddf5c;
   font-family: inherit;
-}
-
-p::first-letter {
-  color: red;
-  font-size: 20px;
 }
