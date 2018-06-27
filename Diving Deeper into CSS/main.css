@@ -59,6 +59,14 @@ body {
   text-decoration: none;
 }
 
+.main-nav__item a:hover {
+  color: white;
+}
+
+.main-nav__item a: active {
+  color: white;
+}
+
 .section-title {
   color: #2ddf5c;
   font-family: inherit;
