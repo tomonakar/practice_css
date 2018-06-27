@@ -14,6 +14,11 @@ body {
   padding: 10px;
 }
 
+.section-title {
+  color: #2ddf5c;
+  font-family: inherit;
+}
+
 #product-overview h1 {
   color: white;
   font-family: 'anton', sans-serif;
@@ -59,19 +64,7 @@ body {
   text-decoration: none;
 }
 
-.main-nav__item a::after {
-  content: " (Link)";
-  color: red;
-}
-.main-nav__item a:hover {
+.main-nav__item a:hover,
+.main-nav__item a:active {
   color: white;
-}
-
-.main-nav__item a: active {
-  color: white;
-}
-
-.section-title {
-  color: #2ddf5c;
-  font-family: inherit;
 }
