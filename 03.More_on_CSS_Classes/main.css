@@ -31,3 +31,29 @@ a:not(.active) {
 .highlighted {
   border: 2px solid #fa923f;
 }
+
+/*
+################################
+CSS Class Selectots
+################################
+1) You can apply more than one class to an element
+2) You can chain selectors
+    a.active
+    .priority.highlighted
+3) Class selectors are the most-used type of CSS selectors
+
+
+################################
+!important
+################################
+1) Don't use !important in 99% of cases
+
+
+################################
+!important
+################################
+1) You use the samse pseudo-selectors in most cases
+2) Explore your possibilities to solve edge cases with ease
+3) Use :not with caution but when needed to exclude certain elements
+
+*/
