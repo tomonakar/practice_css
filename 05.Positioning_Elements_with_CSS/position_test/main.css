@@ -28,6 +28,13 @@ body {
     margin: 10px;
 }
 
-.child-2 {
+/* .child-2 {
   position: fixed;
+} */
+
+.parent .child-1 {
+  position: relative;
+  top: 30px;
+  left: 20px;
+
 }
