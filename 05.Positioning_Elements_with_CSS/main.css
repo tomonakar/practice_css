@@ -121,3 +121,60 @@
 /* h1 {
     font-family: sans-serif;
 } */
+
+
+
+/*
+#################################################
+The position Property
+##################################################
+static (default)
+fixed
+absolute
+relative
+sticy
+
+
+#################################################
+The Document Flow
+##################################################
+- The default positioning behavior of html elements
+- Can be changed with position
+- Elements can remain in the document flow or be excluded from it
+
+
+#################################################
+Moving Elements
+##################################################
+- top
+- bottom
+- left
+- right
+
+
+#################################################
+Positioning Context
+##################################################
+- Defines the anchor point for your position change
+- The viewport of fixed
+- Another element for absolute
+- The element itself for relative
+- The viewport and another element for sticky
+
+
+#################################################
+Z-index
+##################################################
+- Changes the default element positionning along the z-axis
+- auto (0) as default value
+- Changes only possible when position is applied
+- Larger value = element is positioned on top of other Elements
+
+
+#################################################
+Stacking Context
+##################################################
+- Created when applying fixed/ sticky or absolute/ relative in combination with z-index
+- Defines stacking behavior of child elements
+
+*/
