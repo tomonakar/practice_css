@@ -10,7 +10,16 @@
     background-clip: border-box; */
     /* background-image: linear-gradient(180deg, red, blue, green, yellow, orange, #fa923f); */
     /* background-image: linear-gradient(180deg, red, transparent ); */
-    background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0,0,0,0.5) );
+    /* background-image: linear-gradient(180deg, red 70%, blue 60%, rgba(0,0,0,0.5) ); */
+    /* background-image: radial-gradient(circle, red, blue, green); */
+    /* background-image: radial-gradient(circle at top left, red, blue, green); */
+    /* background-image: radial-gradient(circle 20px at 20% 50%, red, blue, green); */
+    /* background-image: radial-gradient(ellipse 80px 20px at 20% 50%, red, blue, green); */
+    /* background-image: radial-gradient(ellipse farthest-side at 20% 50%, red, blue, green); */
+    /* background-image: radial-gradient(ellipse closest-side at 20% 50%, red, blue, green); */
+    /* background-image: radial-gradient(ellipse closest-corner at 20% 50%, red, blue, green); */
+    /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue, green); */
+    background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green);
     width: 100%;
     height: 528px;
     padding: 10px;
